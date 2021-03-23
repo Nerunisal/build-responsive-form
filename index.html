@@ -8,6 +8,67 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+    <section>
+       <div class="intro">
+            <h2>Learn Web Design, Coding and Much More</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque explicabo a eius expedita ipsa voluptatem laudantium illo perferendis, vel harum rem ullam suscipit quia? Ratione in quasi ipsa. Eum, possimus.
+            </p>
+       </div>
+        <form action="#" method="POST">
+            <fieldset>
+                <p>Try it for free for 7 days starting at $25 a month<p>
+        <!--4 radio button options here, they require a name attribute o be connected, and a value attribute for the db info -->
+                <h3>
+                    Field of Intrest
+                </h3>
+                <div  class= "flex-container">
+                    <div>
+                        <input type="radio" id="html" name="area-intrest" value="html" checked>
+                        <label for="html">HTML</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="CSS"  name="area-intrest" value="css">
+                        <label for="css">Styling a Website</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="javascript"  name="area-intrest" value="JavaScript">
+                        <label for="javascript">JavaScript</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="uxui"  name="area-intrest" value="UX UI">
+                        <label for="uxui">UX/UI</label>
+                    </div>
+                </div>
+
+        
+            <!-- all inputs require a label tat is connected to the input -->
+            
+                <div>
+                    <label for="f-name">First Name</label>
+                    <input type="text" id="f-name" required autofocus/>
+                </div>
+                <div>
+                    <label for="l-name">Last Name</label>
+                    <input type="text" id="l-name" required/>
+                </div>
+                <div>
+                    <label for="email">Email Address</label>
+                    <input type="text" id="email" required placefolder="Email Required"/>
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="text" id="password" required autocomplete="off" minlength="10" placeholder="Passwords"/>
+                </div>
+                <div class="flex-form-field">
+                    <label for="signup">By Signing up you are agreeing to our <a href="#">Terms of Service</a></label>
+                    <input type="checkbox" id="signup"/>
+                </div>
+                <div>
+                <input type="submit" value="Claim Your Free Trial &#9656;"/>
+                </div>    
+            </fieldset>
+        </form>
+    </section>
 </body>
 </html>
